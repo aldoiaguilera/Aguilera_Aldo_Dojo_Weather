@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.top-container {
+    background-color:cornflowerblue;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+}
+
+.navigation-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+}
+
+.location-container {
+    width: 900px;
+    height: 100px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-container h2 {
+    font-size: 40px;
+}
+
+.location-container span {
+    font-size: 25px;
+}
+
+#temperature-type {
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+}
+
+.weather-container {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(185, 185, 185);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 280px;
+    width: 160px;
+}
+
+.date {
+    font-size: 30px;
+}
+
+.weather-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.weather-details {
+    text-align: center;
+    width: 160px;
+    font-size: 30px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    align-items: center;
+    height: 25px;
+}
+
+.high {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.low {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cookie-message {
+    width: 900px;
+    height: 100px;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.cookie-message p {
+    font-size: 20px;
+}
+
+#cookie {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+}
+
+#accept-button {
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px black;
+}
